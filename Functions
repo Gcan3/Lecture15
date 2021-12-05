@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+void hello()
+{
+    cout << "Welcome to the program!" << endl;
+}
+
+void bye()
+{
+    cout << "End of program" << endl;
+}
+
+int main()
+{
+    hello();
+    bye();
+    return 0;
+}
